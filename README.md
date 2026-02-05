@@ -190,7 +190,6 @@ command generates the documentation, updates the requirements.txt and builds the
 Note the functionality provided by fhmake can be approximated by the following
 
 ```sh
-handsdown  --cleanup -o documentation/reference
 poetry export -f requirements.txt --output requirements.txt
 poetry export -f requirements.txt --with dev --output requirements_optional.txt
 poetry build
