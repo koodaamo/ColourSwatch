@@ -4,7 +4,7 @@ name: Repo sync GitHub -> Codeberg
 on:
   push:
     branches:
-    - '**'
+    - 'kdfkdfkd' # disabled until I have codeberg acct
 
 jobs:
   codeberg:
